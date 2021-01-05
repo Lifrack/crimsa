@@ -165,7 +165,7 @@ $accent-color: #fbb90d;
         list-style: none;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         li {
             margin: 1%;
@@ -234,5 +234,50 @@ $accent-color: #fbb90d;
             font-size: 1.4vw;
 
         }
+    }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    #logo {
+        img {
+            height: 65%;
+        }
+    }
+    #contra-logo {
+        .title {
+            bottom: auto;
+            top: 9vh;
+        }
+    }
+    .hero-left {
+        top: 15vh;
+        height: 26vh;
+        width: 100%;
+    }
+    .text * {
+        font-size: 3.4vw;
+    }
+    .hero-right {
+        top: 42vh;
+        width: 100%;
+        height: 58vh;
+        p {
+            font-size: 6vw;
+        }
+
+        ul {
+            li {
+                border-bottom: solid $accent-color;
+                a {
+                    font-size: 4.8vw;
+                }
+            }
+        }
+        .boton-final {
+            font-size: 5vw;
+        }
+    }
+    .hero-footer {
+        display: none;
     }
 }
