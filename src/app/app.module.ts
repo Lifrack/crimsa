@@ -17,6 +17,9 @@ import { TopNavbarComponent } from './componentes/top-navbar/top-navbar.componen
 import { BodyProductosComponent } from './componentes/body/body-productos/body-productos.component';
 import { CFEV800052Component } from './paginas/productos/cfev800052/cfev800052.component';
 import { PiedepaginaComponent } from './componentes/piedepagina/piedepagina/piedepagina.component';
+import { FRAFSI114Component } from './paginas/productos/frafsi114/frafsi114.component';
+import { V800006Component } from './paginas/productos/v800006/v800006.component';
+import { V800053Component } from './paginas/productos/v800053/v800053.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,9 @@ import { PiedepaginaComponent } from './componentes/piedepagina/piedepagina/pied
     BodyProductosComponent,
     CFEV800052Component,
     PiedepaginaComponent,
+    FRAFSI114Component,
+    V800006Component,
+    V800053Component,
   ],
   imports: [
     BrowserModule,
