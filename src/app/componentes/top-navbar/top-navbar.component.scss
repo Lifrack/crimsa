@@ -1,0 +1,22 @@
+#topNavbar {
+    background: url('https://picsum.photos/1366/768');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14vh;
+    img {
+        height: 100%;
+        transform: translateX(150%);
+        cursor: pointer;
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+    #topNavbar{
+        img {
+            transform: translateX(0);
+            margin: auto;
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<div class="navbar" [@navBarTrigger]="estadoBarra ? 'extend' : 'short'">
+    <img src="/assets/imagenes/logo.svg" id="navbar-logo" [@logoTrigger]="estadoBarra ? 'extend' : 'short'" routerLink="/">
+    <div class="links" [@linksTrigger]="estadoBarra ? 'extend' : 'short'">
+        <ul>
+            <li><a routerLink="/productos" [@aLinksTrigger]="estadoBarra ? 'extend' : 'short'">Productos</a></li>
+            <li><a routerLink="/certificados" [@aLinksTrigger]="estadoBarra ? 'extend' : 'short'">Certificados</a></li>
+            <li><a routerLink="/nosotros" [@aLinksTrigger]="estadoBarra ? 'extend' : 'short'">Sobre nosotros</a></li>
+            <li><a routerLink="/contacto" [@aLinksTrigger]="estadoBarra ? 'extend' : 'short'">Contactos</a></li>
+        </ul>
+    </div>
+</div>
